@@ -83,13 +83,10 @@ npm run build
 │   └── _container.scss
 │
 ├── page：各ページごとのcss
-│   ├── _feature.scss
-│   └── _front-page.scss
+│   ├── _front-page.scss
+│   └── _sample.scss
 │
 └──  main.scss：エントリポイント
-
-・pagesフォルダ内のscssは、原則当該ページでのみ読み込みます。main.scssでその設定を行います。
-https://gyazo.com/2b6294dfd9537b5ea47a5b497783ab59
 ```
 
 ## CSSファイルで url を参照するとき
