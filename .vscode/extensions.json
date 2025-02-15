@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "yusukehirao.vscode-markuplint",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--header-height);
+  padding-inline: 2rem;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.header__inner {
+  width: 100%;
+  height: 100%;
+}

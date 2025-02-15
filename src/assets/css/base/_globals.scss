@@ -1,0 +1,76 @@
+:root {
+  // Layout
+  --header-height: 5rem;
+  --container-width: 62.5rem;
+
+  // Color
+  --c-primary: #0d23c6;
+  --c-primary-hover: #0e0ea3;
+  --c-text-base: #3c3c43;
+  --c-text-muted: #6e6e73;
+  --c-text-white: #ffffffff;
+  --c-link: #0017c1;
+  --c-link-hover: #0e0ea3;
+  --c-border: #d1d9e0b3;
+  --bgc-white: #ffffff;
+  --bgc-soft: #f6f8fa;
+
+  // Border radius
+  --rounded-sm: 6px;
+  --rounded: 8px;
+  --rounded-lg: 12px;
+  --rounded-full: 9999em;
+
+  // Font family
+  --font-notosans: "Noto Sans JP", sans-serif;
+  --font-yugo:
+    "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック",
+    "Yu Gothic", "sans-serif";
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: medium;
+  background: var(--bgc-white);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  font-family: var(--font-notosans);
+  line-height: 1.6;
+  color: var(--c-text-base);
+  letter-spacing: 0.01em;
+}
+
+:where(a) {
+  color: var(--c-link);
+}
+
+:where(a:hover),
+:where(a:visited) {
+  color: var(--c-link-hoer);
+}
+
+:where(img) {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+:where(svg) {
+  height: auto;
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
+}
